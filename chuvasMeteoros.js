@@ -37,7 +37,7 @@ function ordenarSul (a, b) {
 const ordemChuvasNorte = chuvasNorte.sort(ordenarNorte);
 const ordemChuvasSul = chuvasSul.sort(ordenarSul)
 
-// Iterando e imprimando a lista
+// Iterando e imprimindo a lista
 function listaChuvasNorte (chuva, index) {
 	let txt = `${index + 1}º - ${chuva.nome} - Dec: ${chuva.declinacao}`;
 	console.log(txt);
